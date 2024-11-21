@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "./dist/index.js",
   "scripts": {
+    "watch": "tsc --watch",
+    "build": "npx tsc",
+    "test": "ts-node ./src/tests/index.ts",
+    "update": "ts-node ./scripts/update.ts",
     "dev": "ts-node ./scripts/test.ts"
   },
   "homepage": "https://github.com/Inventsable/mapgen",
