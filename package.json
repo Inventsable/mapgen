@@ -1,0 +1,21 @@
+{
+  "name": "mapgen",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "ts-node ./scripts/test.ts"
+  },
+  "homepage": "https://github.com/Inventsable/mapgen",
+  "keywords": [],
+  "author": "tom@inventsable.cc",
+  "license": "ISC",
+  "description": "Parsing library for generating interactive map data from Jomini files",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "picocolors": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "uuidv7": "^1.0.0"
+  }
+}
