@@ -14,12 +14,16 @@
   "author": "tom@inventsable.cc",
   "license": "ISC",
   "description": "Parsing library for generating interactive map data from Jomini files",
-  "dependencies": {
+  "devDependencies": {
     "@clack/prompts": "^0.7.0",
-    "date-fns": "^3.6.0",
     "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
     "picocolors": "^1.0.1",
-    "ts-node": "^10.9.2",
-    "uuidv7": "^1.0.0"
+    "uuidv7": "^1.0.0",
+    "@types/node": "^20.10.8",
+    "jomini": "^0.9.1"
   }
 }
